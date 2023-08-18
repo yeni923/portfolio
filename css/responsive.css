@@ -1,0 +1,191 @@
+:root {
+  --primary: rgb(255, 192, 0);
+  --neutral: #202020;
+}
+/* Laptop*/
+@media (max-height: 1366px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .Navbar .Navbar-Menu {
+    display: none;
+    /*display: block;*/
+    background-color: var(--primary);
+    border-radius: 0px;
+    padding: 8px 4px;
+    height: 48px;
+    align-items: center;
+  }
+  .Navbar .Navbar-Brand a {
+    font-size: 12px;
+  }
+  .Hero .container .col {
+    display: block;
+  }
+  .Hero .container .col .col-1 {
+    width: 50%;
+    align-items: center;
+  }
+  .Hero .container .col .col-1 h4 {
+    font-size: 20px;
+    padding: 12px 16px;
+    align-self: center;
+    padding-right: 40px;
+    border-radius: 50px;
+    margin-left: -120px;
+  }
+  .Hero .container .col .col-2 {
+    display: block;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+  .Hero .container .col .col-2 img {
+    width: 100%;
+    align-self: center;
+  }
+  .Hero .container .col .col-1 {
+    display: block;
+    padding: 8px 4px;
+    width: 100%;
+  }
+  .Hero .container .col .col-1 .button_cta {
+    display: block;
+    margin-bottom: 8%;
+    margin: 0;
+    padding: 2% 2%;
+  }
+  .Hero .container .col .col-1 .button_cta a {
+    margin: 8px 4px;
+    display: block;
+  }
+  .Services .container .col {
+    display: block;
+    align-items: center;
+    padding: 4px 48px;
+    margin: 0px 0px;
+  }
+  .Services .container .col .services {
+    background-color: var(--primary);
+    padding: 12px 8px;
+    margin: 16px 0px;
+    text-align: center;
+    border-radius: 200px 200px 0px 0px;
+    align-content: space-between;
+  }
+  .About .container {
+    width: 100%;
+  }
+  .About .container .col {
+    display: block;
+    align-items: center;
+    margin: 0px;
+    padding: 8px 16px;
+  }
+  .About .container .col .colAbout-50 {
+    align-items: center;
+    width: 100%;
+  }
+  .About .container .col .colAbout {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 4px 8px;
+  }
+  .about_article p {
+    font-size: 16px;
+  }
+  .container_hobby {
+    display: block;
+    padding: 0px 8px;
+    margin: 0;
+  }
+  .About .container .col .colAbout .container_hobby .col {
+    display: inline-block;
+    padding: 4px 16px;
+    margin: 0;
+  }
+  .portfolio .container .col {
+    display: block;
+    margin: 0px;
+    padding: 16px 64px;
+    justify-content: center;
+  }
+  .portfolio .container .col .card {
+    width: 100%;
+    margin: 24px 0px;
+    padding: 0px 0px;
+  }
+  .col .card h4 {
+    font-size: 16px;
+  }
+  .connect .form #ask {
+    width: 100%;
+  }
+  footer {
+    margin: 0;
+    padding: 0;
+    min-height: 0;
+  }
+  footer .container {
+    bottom: 0;
+    margin-bottom: 0;
+    display: block;
+    background-image: url(../image/Frame\ 132.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  footer .container .col {
+    display: block;
+  }
+  .quicklink li a {
+    font-size: 12px;
+  }
+  .navigasi li a {
+    font-size: 12px;
+  }
+  footer .container .col .quicklink {
+    margin: 0;
+    padding: 0;
+  }
+  footer .container .col .quicklink .col {
+    display: inline-block;
+    align-content: center;
+  }
+  footer .container .col .quicklink .message {
+    display: block;
+  }
+  footer .container .col .quicklink .message p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .quicklink .col .social-contact {
+    display: flex;
+    padding: 4px 36px;
+    margin: 8px 8px;
+    align-items: center;
+  }
+  .quicklink .col .social-contact img {
+    width: 100%;
+  }
+  .quicklink .col .social-contact p a {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+  }
+}
